@@ -15,9 +15,9 @@
 @import url(../blocks/header/__lang-link/_status/header__lang-link_status_active.css);
 @import url(../blocks/header/__logo/header__logo.css);
 @import url(../blocks/intro/intro.css);
+@import url(../blocks/intro/__list-line/intro__list-line.css);
+@import url(../blocks/intro/__list-number/intro__list-number.css);
 @import url(../blocks/intro/__list/intro__list.css);
-@import url(../blocks/intro/__list/_line/intro__list_line.css);
-@import url(../blocks/intro/__list/_number/intro__list_number.css);
 @import url(../blocks/intro/__text/intro__text.css);
 @import url(../blocks/intro/__title/intro__title.css);
 @import url(../blocks/lead/lead.css);
