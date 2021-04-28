@@ -1,0 +1,27 @@
+.places {
+    font-family: "Inter", Arial, sans-serif;
+    margin: 64px 0 66px 0;
+}
+
+@media screen and (min-width: 768px) {
+    .places {
+        margin: 88px 24px 90px 24px;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(5, minmax(min-content, max-content));
+        row-gap: 73px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .places {
+        row-gap: 80px;
+        margin: 92px 48px 90px 48px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .places {
+        margin: 92px 148px 90px 148px;
+    }
+}
