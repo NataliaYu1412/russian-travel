@@ -1,11 +1,21 @@
 .header__lang-link {
+    transition: opacity 1s;
     font-size: 18px;
     line-height: 1.1;
     font-weight: normal;
     text-decoration: none;
-    margin: 0;
+    margin: 0 18px 0 0;
     color: #FFFFFF;
 }
+
+.header__lang-link:hover {
+    opacity: 0.8;
+}
+
+.header__lang-link:last-child{
+    margin: 0;
+}
+
 
 @media (min-width: 768px) {
     .header__lang-link {

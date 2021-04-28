@@ -8,6 +8,7 @@
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(6, 1fr);
         gap: 16px;
+        margin: 0 24px;
     }
 }
 
@@ -17,6 +18,7 @@
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: repeat(4, 1fr);
         gap: 14px;
+        margin: 0 48px;
     }
 }
 
